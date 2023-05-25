@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class pyramid {
+    public static void main(String[] a){
+        System.out.println("Enter a single number to build pyramid:");
+        Scanner input_variable = new Scanner(System.in);
+        String Object_n = input_variable.nextLine();
+        System.out.println( "\n    " +Object_n+"\n   "+Object_n+Object_n+Object_n+"\n  "+Object_n+Object_n+Object_n+Object_n+Object_n+"\n "+Object_n+Object_n+Object_n+Object_n+Object_n+Object_n+Object_n+"\n"+Object_n+Object_n+Object_n+Object_n+Object_n+Object_n+Object_n+Object_n+Object_n);
+
+    }
+}
