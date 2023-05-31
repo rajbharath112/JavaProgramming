@@ -8,3 +8,15 @@ public class CompoundAssignment {
         System.out.println(a);
     }
 }
+//Increment/DecrementOperator
+public class IncrementDecrement {
+    public static void main(String[] args) {
+        byte a = 10;
+        //Increment(or)Decrement Operator can be only used to add or minus only 1(one)value from its respective variable
+        a++; //(Or) ++a; both are same
+        --a;// (Or) a--; both are same
+        System.out.println(a);
+    }
+}
+
+
