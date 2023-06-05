@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Operations {
+    public static void main(String[] args) {
+        int Addition,subtraction,divide,multiplication,modules;
+        Scanner input_receiver = new Scanner(System.in);
+        System.out.println("Enter the value1 to perform Arithmetic operations:");
+        int int_variable = input_receiver.nextInt();
+        System.out.println("Enter the value2 to perform Arithmetic operations");
+        int int_variable2 = input_receiver.nextInt();
+        Addition= int_variable+int_variable2;
+        System.out.println("The Addition of Two variable:"+Addition);
+        subtraction= int_variable-int_variable2;
+        System.out.println("The Subtraction of Two variable:"+subtraction);
+        divide= int_variable/int_variable2;
+        System.out.println("The divition of Two variable:"+divide);
+        multiplication= int_variable*int_variable2;
+        System.out.println("The Multiplication of Two variable:"+multiplication);
+        modules=int_variable%int_variable2;
+        System.out.println("The Addition of Two variable:"+modules);
+    }
+}
