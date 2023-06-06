@@ -19,3 +19,26 @@ public class Operations {
         System.out.println("The Addition of Two variable:"+modules);
     }
 }
+//Operations using float datatypes
+import java.util.Scanner;
+public class Operations {
+    public static void main(String[] args) {
+        float Addition,subtraction,divide,multiplication,modules;
+        Scanner input_receiver = new Scanner(System.in);
+        System.out.println("Enter the Float Value to perform Arithmetic operations:");
+        float int_variable = input_receiver.nextInt();
+        System.out.println("Enter the Another float value to perform Arithmetic operations");
+        float int_variable2 = input_receiver.nextInt();
+        Addition= int_variable+int_variable2;
+        System.out.println("The Addition of Two Float Values:"+Addition);
+        subtraction= int_variable-int_variable2;
+        System.out.println("The Subtraction of Two Float Values:"+subtraction);
+        divide= int_variable/int_variable2;
+        System.out.println("The divition of Two Float Values:"+divide);
+        multiplication= int_variable*int_variable2;
+        System.out.println("The Multiplication of Two Float Values:"+multiplication);
+        modules=int_variable%int_variable2;
+        System.out.println("The Addition of Two Float Values:"+modules);
+    }
+}
+
