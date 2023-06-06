@@ -2,6 +2,8 @@
 public class RelationalOperations {
     public static void main(String[] args) {
         byte VariableOne = 10, VariableTwo =10;
+        //System.out.println(VariableOne<100);
         System.out.println(VariableOne<=VariableTwo);
     }
 }
+/* Relational Operators majorly used in if conditions ( < > <= >= == !=)*/
