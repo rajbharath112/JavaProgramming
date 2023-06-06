@@ -1,0 +1,7 @@
+//Inplementation using print module
+public class RelationalOperations {
+    public static void main(String[] args) {
+        byte VariableOne = 10, VariableTwo =10;
+        System.out.println(VariableOne<=VariableTwo);
+    }
+}
