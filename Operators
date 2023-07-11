@@ -18,5 +18,13 @@ public class IncrementDecrement {
         System.out.println(a);
     }
 }
+/*BitwiseOperator
+~NOT  << Left Shift
+&AND  >> Right Shift
+|OR   >>> Right Swift Zero Fill
+^EXOR 
+In Computer Memory Everything will be Stored in form of 0's and 1's(Transistor will be connected with the capacitor in the circuit)
+if it get charged it is consider as 1, if not consider as 0 - as scale integration---1:36:48
+*/
 
 
