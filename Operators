@@ -25,6 +25,10 @@ public class IncrementDecrement {
 ^EXOR 
 In Computer Memory Everything will be Stored in form of 0's and 1's(Transistor will be connected with the capacitor in the circuit)
 if it get charged it is consider as 1, if not consider as 0 - as scale integration---1:36:48
+in decimal number each will be consider as a digit, likewise binary number each will be consider as a bit
+consider 5-101 bitwise operator will perform operation on each bit(handles it) but other operator perform operation by whole number
+         6-110 at the background everything will be handled in bit wise manner don't see in that point of view view through programmer point of view
+
 */
 
 
