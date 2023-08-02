@@ -29,9 +29,9 @@ public class RelationalOperations {
 /* Relational Operators majorly used in if conditions ( < > <= >= == !=)*/
 
 /*BitwiseOperator
-~NOT  << Left Shift
-&AND  >> Right Shift
-|OR   >>> Right Swift Zero Fill
+~NOT  
+&AND  
+|OR   
 ^EXOR  (very strict OR-true if one input as true and another input as false)
 In Computer Memory Everything will be Stored in form of 0's and 1's(Transistor will be connected with the capacitor in the circuit)
 if it get charged it is consider as 1, if not consider as 0 - as scale integration---1:36:48
@@ -56,4 +56,14 @@ public class BitwiseOperator {
 
     }
 }
+Application of BitwiseOperators
+.messages(encryption-decryption)--whatsapp
+.networks parity checking,error codes
+.Graphics-EXOR operator has been used
+
+Swifting
+<< Left Shift
+>> Right Shift
+>>> Right Swift Zero Fill
+if we practice left shift(variableNmame << 1) then the lsb swift towards left 
 
