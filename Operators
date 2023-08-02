@@ -22,7 +22,7 @@ public class IncrementDecrement {
 ~NOT  << Left Shift
 &AND  >> Right Shift
 |OR   >>> Right Swift Zero Fill
-^EXOR 
+^EXOR  (very strict OR-true if one input as true and another input as false)
 In Computer Memory Everything will be Stored in form of 0's and 1's(Transistor will be connected with the capacitor in the circuit)
 if it get charged it is consider as 1, if not consider as 0 - as scale integration---1:36:48
 in decimal number each will be consider as a digit, likewise binary number each will be consider as a bit
@@ -30,5 +30,5 @@ consider 5-101 bitwise operator will perform operation on each bit(handles it) b
          6-110 at the background everything will be handled in bit wise manner don't see in that point of view view through programmer point of view
 
 */
-
+Bit
 
