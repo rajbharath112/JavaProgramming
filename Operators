@@ -40,4 +40,20 @@ consider 5-101 bitwise operator will perform operation on each bit(handles it) b
          6-110 at the background everything will be handled in bit wise manner don't see in that point of view view through programmer point of view
 
 */
+In java negative numbers can be handled using 2s complement(which will be stored)
+public class BitwiseOperator {
+    public static void main(String[] args) {
+             byte variableOne =9,variableTWo=12;
+             int variableThree = variableOne & variableTWo;
+             System.out.println(+variableThree);
+             variableThree = variableOne | variableTWo;
+             System.out.println(+variableThree);
+             variableThree = variableOne ^ variableTWo;
+             System.out.println(+variableThree);
+             variableThree =  ~ variableTWo;
+             System.out.println(+variableThree);
+
+
+    }
+}
 
