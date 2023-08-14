@@ -67,3 +67,35 @@ Swifting
 >>> Right Swift Zero Fill
 if we practice left shift(variableNmame << 1) then the lsb swift towards left 
 
+/*
+BooleanOperators
+~NOT   <<  Left shift
+&AND   >>  Right shift
+|OR    >>> Right shift zeo fill
+^EXOR
+ */
+ public class BooleanOperations{
+            public static void main(string[] args){
+                boolean a=true,b=false; //1-true 0-false we can also use compound assignment.
+                System.out.println(a&b);
+                System.out.println(a|b);
+                System.out.println(a^b);
+            }
+}
+/* Short circuit logical operators-it is special type of operator available in java(most of languages don't have this operator)
+{
+.&&(AND)-multiple
+.||(OR) -Addition
+} - check only first operand if it is flase,check both if first operand is true -02.00h
+Boolean,Bitwise Operator check both operands
+*/
+ public class ShortCircuitLogicalOperation{
+            public static void main(string[] args){
+                int a=10;
+                System.out.println((a>20) && (a<30)); //check whether the number is present between 20 to 30
+                System.out.println((a<20) || (a>30)); // check whether the number is  not present between 20 to 30
+            }
+}//At some point of time,we may terminate to check another operand thats why this operator known as short circuit logical operator.
+//Otherwise short circuit logical operator is used to combine relational 
+ 
+
